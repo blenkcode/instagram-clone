@@ -1,0 +1,72 @@
+.logo{
+    width: 132px;
+    margin: 24px 0px 0px 11px;
+}
+
+.maincontainer{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60% 27% 13% ;
+}
+
+.iconsmaincontainer{
+    padding-left: 8px;
+    padding-top: 20px;
+}
+.gridupper{
+grid-column: 1/2;
+grid-row: 1/2;
+background-color: rgb(0, 0, 0);
+
+}
+.ul{
+  margin: 0px;
+}
+.gridmid{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: rgb(0, 0, 0);
+}
+.gridlower{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: rgb(0, 0, 0);
+    padding-left: 10px;
+}
+
+.icons{
+    color: rgb(248, 248, 248);
+    font-size: 23px;
+    margin-right: 15px;
+}
+
+.iconcontainer{
+    color: white;
+    padding: 10px;
+font-size: 17px;
+    margin: 11px;
+    list-style-type: none;
+    display: flex;
+width: 90%;
+    align-items: center;
+    margin-left: 10px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+   
+
+}
+
+:hover.iconcontainer{
+    background-color: rgba(58, 58, 58, 0.462);
+    transition: 0.3s;
+}
+.profilpic{
+    border-radius: 200px;
+    width: 26px;
+    margin-right: 18px;
+   
+}

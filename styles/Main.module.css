@@ -1,0 +1,153 @@
+.storypic{
+    border-radius: 200px;
+    width: 65px;
+
+    background: linear-gradient(to right, rgb(255, 170, 0),rgb(255, 0, 0),purple);
+    padding: 2.5px
+}
+.storyUsername{
+    font-size: 12px;
+    color: white;
+}
+
+.stories{
+    max-width: 680px;
+    display: flex;
+    overflow:scroll;
+}
+.story{
+    padding: 12px;
+}
+
+.stories::-webkit-scrollbar {
+    display: none;
+  }
+
+  .header{
+    color:white;
+    font-weight:600;
+  }
+  .suivie{
+    color: rgb(130, 130, 130);
+  }
+  .cards{
+    max-width: 480px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 52px 1fr 150px ;
+    margin-left: 20%;
+    margin-top: 40px;
+    
+  }
+
+  .cardsinfos{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+  }
+
+  .cardscontent{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    background-color: rgb(0, 0, 0);
+  }
+  .cards{
+    margin-bottom: 30px;
+  }
+  .cardssocials{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    background-color: rgb(0, 0, 0);
+  }
+  .cardsprofilpic{
+    border-radius: 200px;
+    width: 40px;
+    background: linear-gradient(to right, rgb(255, 170, 0),rgb(255, 0, 0),purple);
+    padding: 2.5px;
+    margin: 0px 8px 0px 8px;
+  }
+  .cardscontent{
+    max-width: 500px;
+    height: fit-content;
+    overflow: hidden;
+  }
+  .cardsimg{
+  width: 480px;
+  border-radius: 3px;
+  }
+  .cardsusername{
+    font-size: 14px;
+    color: white;
+  }
+  .cardsdate{
+    font-size: 13px;
+    color: rgb(147, 147, 147);
+    margin-left: 5px;
+  }
+  .icons{
+ font-size: 25px;
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  
+  }
+  .iconbookmark{
+    font-size: 23px;
+       color: white;
+       padding: 6px;
+    margin-left: 335px;
+    cursor: pointer;
+     }
+
+     .dotsicons{
+    color: white;
+    margin-left: 60%;
+    font-size: 18px;
+
+     }
+
+     .commentBtn{
+        background-color: black;
+        color: white;
+        border: none;
+        display: flex;
+        margin: 5px;
+        cursor: pointer;
+     }
+
+     .commentInput{
+        background-color: black;
+        color: rgb(255, 255, 255);
+        border: none;
+        padding:3px;
+        width:300px;
+        margin: 5px;
+        cursor:text;
+        
+    }
+
+    .commentInput:focus{
+      outline:1px solid rgb(0, 0, 0);
+    }
+
+    .description{
+        color:white;
+        padding:3px;
+        margin-top: 5px;
+    }
+    .user{
+        color: white;
+        margin-top: 5px;
+        margin-left: 5px
+    }
+    .likes{
+        color:white;
+        margin: 5px
+    }
+.commentsContainer{
+display: flex;
+flex-direction: column;
+    }
